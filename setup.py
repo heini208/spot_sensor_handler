@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = spot_sensor_handler.my_node:main'
+            'my_node = spot_sensor_handler.my_node:main',
+            'magnet_plotter = spot_sensor_handler.magnet_plotter:main',
+
         ],
     },
 )
